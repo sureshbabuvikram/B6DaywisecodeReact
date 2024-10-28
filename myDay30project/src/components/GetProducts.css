@@ -1,0 +1,30 @@
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card{
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.product-card img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+h3{
+    margin: 10px ;
+}
+
+.product-card:hover{
+    transform: scale(1.05);
+}
